@@ -13,7 +13,6 @@ public class Main {
             int[] array = new int[number.length + 1];
             for (int i = 0; i < number.length;i++) {
                 array[i] = number[i];
-
             }
             array[number.length] = value;
             number = array;
