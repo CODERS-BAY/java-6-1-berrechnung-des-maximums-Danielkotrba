@@ -21,7 +21,7 @@ public class Main {
         }
         System.out.println(number.length);
 
-        int biggestNumber = 0;
+        int biggestNumber = Integer.MIN_VALUE;
         for (int i = 0;i < number.length; i++) {
             if (biggestNumber < number[i]) {
                 biggestNumber = number[i];
